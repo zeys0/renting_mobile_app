@@ -8,78 +8,33 @@ Link Dribble : https://dribbble.com/shots/23154100-Renting-App-Design-Concept-iO
 
 # Struktur MVVM
 
-core/
-  global_component/
-    - Typography.dart
-    - ButtonComponent.dart
-    - CardComponent.dart
-    - AvatarComponent.dart
-    - RatingComponent.dart
-    - NetworkImageLoader.dart
+core/ global_component/ - Typography.dart # Mengatur gaya teks global - ButtonComponent.dart # Komponen tombol dengan berbagai gaya - CardComponent.dart # Kartu produk global - AvatarComponent.dart # Komponen avatar bulat - RatingComponent.dart # Komponen bintang ulasan - NetworkImageLoader.dart # Loader untuk mengambil gambar dari URL
 
 config/
-  - main_app.dart
 
+main_app.dart # Konfigurasi utama aplikasi (tema, navigasi)
 utils/
-  - route_utils.dart
 
+route_utils.dart # Pengaturan rute aplikasi dengan transisi
 constants/
-  - string.dart
-  - color.dart
-  - images.dart
 
-data/
-  product/
-    model/
-      - Product.dart
-    dummy/
-      - DummyProduct.dart
+string.dart # Kumpulan teks statis
+color.dart # Palet warna aplikasi
+images.dart # Path ikon dan gambar
+data/ product/ model/ - Product.dart # Model data untuk produk dummy/ - DummyProduct.dart # Dummy data produk untuk pengujian
 
-  shop/
-    model/
-      - Shop.dart
-    dummy/
-      - DummyShop.dart
+shop/ model/ - Shop.dart # Model data untuk toko dummy/ - DummyShop.dart # Dummy data toko untuk pengujian
 
-  review/
-    model/
-      - Review.dart
-    dummy/
-      - DummyReview.dart
+review/ model/ - Review.dart # Model data untuk ulasan dummy/ - DummyReview.dart # Dummy data ulasan untuk pengujian
 
-features/
-  home/
-    screen/
-      - HomeScreen.dart
-    widgets/
-      - CategoryButtonWidget.dart
-      - ProductCardWidget.dart
-      - SearchBarWidget.dart
-    controller/
-      - HomeController.dart
+features/ home/ screen/ - HomeScreen.dart # Halaman utama (daftar produk) widgets/ - CategoryButtonWidget.dart # Tombol kategori - ProductCardWidget.dart # Kartu produk - SearchBarWidget.dart # Kotak pencarian controller/ - HomeController.dart # Logika halaman utama (pengelolaan data produk)
 
-  product_detail/
-    screen/
-      - ProductDetailScreen.dart
-    widgets/
-      - ProductImageWidget.dart
-      - RentButtonWidget.dart
-    controller/
-      - ProductDetailController.dart
+product_detail/ screen/ - ProductDetailScreen.dart # Halaman detail produk widgets/ - ProductImageWidget.dart # Komponen gambar besar produk - RentButtonWidget.dart # Tombol penyewaan produk controller/ - ProductDetailController.dart # Logika halaman detail produk
 
-  shop_detail/
-    screen/
-      - ShopDetailScreen.dart
-    widgets/
-      - ReviewCardWidget.dart
-      - ShopInfoWidget.dart
-    controller/
-      - ShopDetailController.dart
+shop_detail/ screen/ - ShopDetailScreen.dart # Halaman detail toko widgets/ - ReviewCardWidget.dart # Kartu ulasan pengguna - ShopInfoWidget.dart # Informasi dasar toko controller/ - ShopDetailController.dart # Logika halaman detail toko
 
 
 # Struktur Proyek Aplikasi "renting mobile app"
-
-# Struktur Folder Proyek
 
 Berikut adalah struktur folder proyek aplikasi penyewaan produk beserta deskripsinya:
 
