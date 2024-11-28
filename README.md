@@ -2,6 +2,10 @@
 
 Link Dribble : https://dribbble.com/shots/23154100-Renting-App-Design-Concept-iOS
 
+![original-322e0a75fccb98c75ec66f1ac224f880](https://github.com/user-attachments/assets/f7cfd8d1-4e37-4370-9c34-a6d8719f19ae)
+
+
+
 # Struktur MVVM
 
 core/
