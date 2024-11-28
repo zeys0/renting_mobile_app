@@ -8,7 +8,8 @@ Link Dribble : https://dribbble.com/shots/23154100-Renting-App-Design-Concept-iO
 
 # Struktur MVVM
 
-lib/
+
+```lib/
 ├── main.dart
 ├── core/
 │   ├── global_component/
@@ -68,6 +69,8 @@ lib/
 │       │   └── ShopInfoWidget.dart
 │       └── controller/
 │           └── ShopDetailController.dart
+```
+
 
 
 # Struktur Proyek Aplikasi "renting mobile app"
